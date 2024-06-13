@@ -44,3 +44,11 @@
 .long{
     padding: 20px 52px;
 }
+.hot-pink{
+    background-color: #EA6494;
+    border-color: #EA6494;
+}
+.long{
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+}
