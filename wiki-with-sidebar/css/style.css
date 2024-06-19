@@ -35,3 +35,8 @@ li {
     flex: 1;
     padding: 48px;
 }
+h1{
+    font-family: cursive;
+    padding: 0px;
+    color: white;
+}
