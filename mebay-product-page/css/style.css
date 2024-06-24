@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: orange;
+}
+
+#three-columns {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#sidebar{
+    padding: 18px;
+}
+#sidebar ul{
+    list-style-type: none;
+}
+#button-1{
+    background-color: rgb(0, 140, 255);
+    border-radius: 24px;
+    text-align: center;
+}
+#button-2{
+    background-color: rgb(0, 140, 255);
+    border-radius: 24px;
+    text-align: center;
+}
+#button-3{
+    background-color: rgb(0, 140, 255);
+    border-radius: 24px;
+    text-align: center;
+}
+#button-4{
+    background-color: rgb(0, 140, 255);
+    border-radius: 24px;
+    text-align: center;
+}
+#column-3 {
+    text-align: center;
+}
+#column-2{
+    text-align: center;
+}
+#heat {
+    color: crimson;
+}
