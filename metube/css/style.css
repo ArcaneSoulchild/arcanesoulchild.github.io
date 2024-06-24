@@ -69,6 +69,7 @@ aside ul a {
         border-radius 0.5s
     ;
 }
+
 aside ul a:hover{
     background-color: silver;
     border-radius: 12px;
@@ -81,7 +82,7 @@ aside ul a:hover{
 }
 
 .metube-item {
-    flex: 250px;
+    width: 250px;
     margin-right: 12px;
     margin-bottom: 24px;
     color: black;
