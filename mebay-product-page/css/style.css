@@ -12,6 +12,10 @@ body {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+#site-info {
+    font-size: 24px;
+    text-align: left;
+}
 
 #sidebar{
     padding: 18px;
@@ -23,28 +27,71 @@ body {
     background-color: rgb(0, 140, 255);
     border-radius: 24px;
     text-align: center;
+    color: white;
 }
 #button-2{
     background-color: rgb(0, 140, 255);
     border-radius: 24px;
     text-align: center;
+    color: white;
 }
 #button-3{
     background-color: rgb(0, 140, 255);
     border-radius: 24px;
     text-align: center;
+    color: white;
 }
 #button-4{
     background-color: rgb(0, 140, 255);
     border-radius: 24px;
     text-align: center;
+    color: white;
 }
 #column-3 {
     text-align: center;
+    padding-left: 24px 24px;
 }
 #column-2{
-    text-align: center;
+    text-align:center;
 }
 #heat {
     color: crimson;
+}
+#title{
+   border-bottom: 2px solid black;
+}
+#jerseys {
+   width: 250px;
+   display: flex;
+   padding-right: 24px;
+}
+#jerseys-2 {
+    width: 250px;
+   display: flex;
+   padding-right: 24px;
+   place-items: left;
+}
+#jerseys-3 {
+    width: 250px;
+   display: flex;
+   padding-right: 24px;
+   place-items: left;
+}
+#jerseys-4 {
+    width: 250px;
+   display: flex;
+   padding-right: 24px;
+   place-items: left;
+}
+#jerseys-5 {
+    width: 250px;
+   display: flex;
+   padding-right: 24px;
+   place-items: left;
+}
+#email {
+    border: 2px solid;
+    border-radius: 48px;
+    list-style-type: none;
+    color: black;
 }
