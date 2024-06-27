@@ -1,0 +1,81 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+.card-style-3 {
+    border: 15px solid rgb(253, 217, 40);
+    border-radius: 15px solid;
+    margin: 18px;
+    padding: 16px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    .attack {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        align-items: center;
+        margin: 8px 0px;
+        padding: 8px 0px 16px;
+        border-bottom: 2px solid black;
+    }
+}
+.details {
+    background: linear-gradient(-25deg, #e3a908, #f0f046, #e3a908);
+    padding: 10px;
+    margin: 1px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.card-style-3 img {
+    border: 3px solid rgb(188, 158, 7);
+    width: 100%;
+}
+#pokemon-card-1, #pokemon-card-2 {
+    background: linear-gradient(-50deg, #bdedbd, #2ea92e, #c7e2c8);
+    padding: 10px;
+}
+.name {
+    margin: 0px;
+}
+.health {
+    font-size:15px;
+    font-weight: lighter;
+    padding-left: 35%;
+}
+.health, .fa-solid, .fa-fire{
+    margin: 0px;  
+}
+
+.power {
+    font-weight: bold;
+}
+.data {
+    text-align: center;
+    font-size: 10px;
+    padding: 3px;
+    border: 2px solid rgb(188, 158, 7);
+    font-weight: bold;
+}
+.bold, .ember{
+    font-weight: bold;
+    font-size: 18px;
+}
+#pokemon-card-3{
+    background: linear-gradient(-50deg, #e2a94d, #ff6600, #f1a93e);
+    padding: 10px;
+}
+#pokemon-card-4{
+    background: linear-gradient(-50deg, #00fff2, #0fc2f9, #00f7ff);
+    padding: 10px;
+
+}
+.pokemon-header {
+    display: flex;
+}
