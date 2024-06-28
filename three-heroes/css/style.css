@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background: linear-gradient(45deg, #5400f1, #85720a, #1557ba);
+}
+#hero-1 {
+    background-image: url(../images/dbxv2_game-thumbnail.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(228, 128, 29);
+}
+#head{
+    padding: 50px 0px;
+    text-align: center;
+    border-top: 2px solid rgb(24, 55, 210);
+    border-bottom: 5px solid rgb(60, 78, 143);
+    a{
+        display: block;
+        border: 2px solid silver;
+        max-width: 250px;
+        margin: 0px auto;
+        padding: 10px 20px;
+        color: rgb(251, 226, 200);
+        text-decoration: none;
+        box-shadow: 
+        inset 8px 0px 10px #35ce7f,
+        0px 0px 10px #89dd0d
+        ;
+    }
+}#hero-2 {
+    background-image: url(../images/dbxv2-roadmap.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
