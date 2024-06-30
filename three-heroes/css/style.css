@@ -5,7 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background: linear-gradient(45deg, #5400f1, #85720a, #1557ba);
+    background: linear-gradient(75deg, #69a0a8, #000000, #1557ba);
 }
 #hero-1 {
     background-image: url(../images/dbxv2_game-thumbnail.jpg);
@@ -27,15 +27,29 @@ body {
         max-width: 250px;
         margin: 0px auto;
         padding: 10px 20px;
-        color: rgb(251, 226, 200);
+        color: rgb(255, 255, 255);
         text-decoration: none;
         box-shadow: 
-        inset 8px 0px 10px #35ce7f,
-        0px 0px 10px #89dd0d
+        inset 8px 0px 10px #a92626,
+        0px 0px 10px #dd0dd6
         ;
     }
-}#hero-2 {
+}
+#hero-2 {
     background-image: url(../images/dbxv2-roadmap.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+#hero-2 h1 {
+    background: linear-gradient(50deg, transparent, #175bd9, transparent);
+    color: rgb(236, 226, 214);
+}
+#hero-3 {
+    background-image: url(../images/xv2_future-saga.avif);
     height: 100vh;
     background-size: cover;
     background-position: center;
