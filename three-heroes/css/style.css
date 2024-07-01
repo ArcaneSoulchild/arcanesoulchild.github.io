@@ -14,8 +14,14 @@ body {
     background-position: center;
     display: flex;
     justify-content: flex-start;
-    color: rgb(228, 128, 29);
+    align-items: center;
+    color: rgb(29, 109, 228);
 }
+#hero-1 h1, h2 {
+margin-bottom: 10vh;
+margin-left: 10vw;
+}
+
 #head{
     padding: 50px 0px;
     text-align: center;
@@ -40,13 +46,16 @@ body {
     height: 100vh;
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
+    position: relative;
 }
-#hero-2 h1 {
-    background: linear-gradient(50deg, transparent, #175bd9, transparent);
-    color: rgb(236, 226, 214);
+#hero-2 h1, h3 {
+    background: linear-gradient(50deg, transparent, transparent, #c7d262);
+    color: #f98f25e9;
+    top: 10%;
+    left: 15%;
+    margin-bottom: 5vh;
+    margin-left: 5vw;
+    font-size: 5vh;
 }
 #hero-3 {
     background-image: url(../images/xv2_future-saga.avif);
@@ -54,6 +63,12 @@ body {
     background-size: cover;
     background-position: center;
     display: flex;
+    background-attachment: fixed;
     justify-content: flex-end;
-    flex-direction: column;
+    text-align: right;
+    color: #a92642;
+    padding: 3vh 6vw;
+    font-size: 2vw;
+    margin-bottom: 3vh;
+
 }
