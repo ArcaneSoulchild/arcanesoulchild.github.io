@@ -213,36 +213,27 @@ a {
 /* TODO: Add your media query code here */
 @media screen and (max-width: 768px){
     #hero h1 { 
-        font-size: 48px;
+        font-size: 50px;
     }
     #hero h3 {
-        font-size: 36px;
+        font-size: 26px;
+        margin: 0px;
     }
-    #nav {
-        flex-wrap: wrap;
+    #nav, .two-cards, .three-cards {
         flex-direction: column;
-        justify-content: center;
-        width: 90vw;
-        max-width: 800px;
-        margin: 24px auto;
     }
-    #nav-links {
-        font-size: 1.125rem;
+    #nav ul, #nav h2 {
+        margin: 4px 0px;
+    }
+    .card {
+        display: flex;
         flex-direction: column;
-        justify-content: center;
-        text-align: center;
+        margin: 24px;
     }
-    .two-cards{
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-    .three-cards{
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-    #content-container {
-        gap: 24px;
+    .two-cards {
+        margin: 48px 0px;
+        .card {
+            padding: 0px;
+        }
     }
 }
