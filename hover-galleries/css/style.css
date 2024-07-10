@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.card-contain1, .card-contain2, .card-contain3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 25px;
+    margin: 25px auto;
+    width: 40vw;
+    max-width: 1200px;
+    border-bottom: 0.5px solid #009290;
+}
+.card {
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+    a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        border: 3px solid black;
+        padding: 12px;
+        margin-top: 36px;
+    }
+}
+#c1:hover {
+    background-color: #8edfcb;
+    box-shadow: 4px 4px 4px #0003;
+    transform: translate(-4px);
+}
+#c1 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s
+    ;
+}
+#c2:hover {
+    background-color: #5650ff;
+    box-shadow: 4px 4px 4px #0003;
+    transform: translate(-4px);
+}
+#c2 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s
+    ;
+}
+#c3:hover {
+    background-color: #f419a0;
+    box-shadow: 4px 4px 4px #0003;
+    transform: translate(-4px);
+}
+#c3 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s
+    ;
+}
+#c4:hover {
+    background-color: #e0e23c;
+    box-shadow: 4px 4px 4px #0003;
+    transform: translate(-4px);
+}
+#c4 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s
+    ;
+}
+#c5:hover a {
+    background-color: #e42525;
+    box-shadow: 4px 4px 4px #0003;
+    transform: translate(-4px);
+}
+
+#c5 a {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s
+    ;
+}
+#c6:hover a {
+    background-color: #98c7ee;
+    box-shadow: 4px 4px 4px #0003;
+    transform: translate(-4px);
+}
+
+#c6 a {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s
+    ;
+}
+#c7:hover a {
+    background-color: rgb(164, 161, 161);
+    box-shadow: 4px 4px 4px #0003;
+    transform: translate(-4px);
+}
+
+#c7 a {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s
+    ;
+}
+#c8:hover a {
+    background-color: #de6d1d;
+    box-shadow: 4px 4px 4px #0003;
+    transform: translate(-4px);
+}
+
+#c8 a {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s
+    ;
+}
+#c9 .btn-9{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 2s,
+        visibility 2s,
+        transform 2s
+    ;
+}
+#c9:hover .btn-9 {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+    color: #5650ff;
+}
+#c10 .btn-10{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 2s,
+        visibility 2s,
+        transform 2s
+    ;
+}
+#c10:hover .btn-10 {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+    color: #50a8ff;
+}
+#c11 .btn-11{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 2s,
+        visibility 2s,
+        transform 2s
+    ;
+}
+#c11:hover .btn-11 {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+    color: #ec2525;
+}
+#c12 .btn-12{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 2s,
+        visibility 2s,
+        transform 2s
+    ;
+}
+#c12:hover .btn-12 {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+    color: #5cff50;
+}

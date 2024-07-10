@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.card-contain {
+    display: flex;
+    padding: 25px;
+    margin: 25px auto;
+    width: 90vw;
+    max-width: 1200px;
+    border-bottom: 0.5px solid #009290;
+}
