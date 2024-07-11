@@ -6,8 +6,8 @@ body {
     margin: 0px;
     font-family: sans-serif;
     background-image: url(../images/paws.jpg);
-    background: linear-gradient(-90deg,transparent, #000, #000, transparent)
-    , url(../images/paws.jpg);
+    background: linear-gradient(90deg,transparent, #000, #000, transparent), 
+    url(../images/paws.jpg);
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -16,7 +16,7 @@ body {
 
 #info {
     text-align: center;
-    color: #9ffca5;
+    color: #ffffff;
     font-size: 24px;
 }
 
@@ -30,7 +30,6 @@ body {
 
 #assist {
     background-color: #8782ee;
-    align-items: center;
     border-radius: 12px;
     text-align: center;
     text-decoration: none;
