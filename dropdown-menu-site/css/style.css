@@ -5,9 +5,9 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-image: url(../images/paws.jpg);
-    background: linear-gradient(-90deg,transparent, #000, #000, transparent)
-    , url(../images/paws.jpg);
+    background-image: url(../images/cats.jpg);
+    background: linear-gradient(-90deg,transparent, #87d9ad, #629fd0, transparent)
+    , url(../images/cats.jpg);
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -16,7 +16,7 @@ body {
 
 #info {
     text-align: center;
-    color: #9ffca5;
+    color: #ffffff;
     font-size: 24px;
 }
 
@@ -74,10 +74,11 @@ body {
     ;
 }
 
-.drop-contain:hover .drop-menu{
+.drop-contain:hover .drop-menu {
     opacity: 1;
     visibility: visible;
 }
+
 
 .drop-menu a {
     background-color: #8782ee;
@@ -89,3 +90,52 @@ body {
     background-color: #5eb996;
     color: #ffffff;
 }
+.images{
+    border-radius: 48px;
+}
+#bruce {
+    border: 2px solid #c4f60c;
+    border-radius: 24px;
+}
+#leroy {
+    border: 2px solid #f60ce6;
+    border-radius: 24px;
+}
+#gilbert {
+    border: 2px solid #0ce3f6;
+    border-radius: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    #navbar {
+        flex-wrap: wrap;
+    }
+
+    .drop-contain {
+        font-size: 24px;
+        margin: 0px;
+    }
+    a {
+        font-size: 24px;
+        margin: 0px;
+    }
+    #info {
+        flex-direction: column;
+        gap: 24px;
+
+    }
+
+    #assist {
+        flex: 50%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .images, #pics{
+
+        flex: 250px;
+        width: 100%;
+        object-position: top;
+        border: 2px solid goldenrod;
+    }
+}   
