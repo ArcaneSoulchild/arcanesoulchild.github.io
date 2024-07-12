@@ -109,6 +109,8 @@ body {
 @media screen and (max-width: 768px) {
     #navbar {
         flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
     }
 
     .drop-contain {
@@ -122,20 +124,40 @@ body {
     #info {
         flex-direction: column;
         gap: 24px;
+        text-align: center;
 
     }
 
     #assist {
         flex: 50%;
         text-align: center;
-        align-items: center;
+       justify-content: center;
     }
 
     .images, #pics{
 
         flex: 250px;
         width: 100%;
+        justify-content: center;
         object-position: top;
-        border: 2px solid goldenrod;
+        
+    }
+    #bruce {
+        flex: 250px;
+        width: 100%;
+        justify-content: center;
+        object-position: top;
+    }
+    #leroy {
+        flex: 250px;
+        width: 100%;
+        justify-content: center;
+        object-position: top;
+    }
+    #gilbert {
+        flex: 250px;
+        width: 100%;
+        justify-content: center;
+        object-position: top;
     }
 }   
