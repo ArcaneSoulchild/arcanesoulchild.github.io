@@ -79,7 +79,6 @@ body {
     visibility: visible;
 }
 
-
 .drop-menu a {
     background-color: #8782ee;
     width: 100%;
@@ -143,18 +142,21 @@ body {
         object-position: top;
         
     }
+
     #bruce {
         flex: 250px;
         width: 100%;
         justify-content: center;
         object-position: top;
     }
+
     #leroy {
         flex: 250px;
         width: 100%;
         justify-content: center;
         object-position: top;
     }
+    
     #gilbert {
         flex: 250px;
         width: 100%;
