@@ -138,6 +138,7 @@ body {
 
         flex: 250px;
         width: 100%;
+        background-position: center;
         justify-content: center;
         object-position: top;
         
