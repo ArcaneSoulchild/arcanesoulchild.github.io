@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background:linear-gradient(50deg, #241773, transparent, #003594)
+}
+.container {
+    text-align: center;
+}
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 24px;
+}
+
+#teams-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 250px;
+    font-weight: bold;
+    
+}
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+#btn-1 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: #241773;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border: 3px solid #9e7c0c;
+    border-radius: 24px;
+    padding: 10px;
+    transition: 
+    background-color 0.5s,
+    color 0.5s
+    ;
+    &:hover{
+        background-color: transparent;
+        color: #4ae52a;
+    }
+}
+#btn-2 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: #003594;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border: 3px solid #ffd100;
+    border-radius: 24px;
+    padding: 10px;
+    transition: 
+    background-color 0.5s,
+    color 0.5s
+    ;
+    &:hover{
+        background-color: transparent;
+        color: #e52a2a;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+   .container {
+    gap: 24px;
+   }
+   .single-column {
+    flex-direction: column;
+    gap: 24px;
+   }
+   .logos {
+    flex: 250px;
+    width: 100%;
+    object-position: top;
+   }
+   #team-info {
+    flex: 250px;
+    width: 100%;
+    object-position: top;
+   }
+   .btn {
+    flex: 50%;
+    text-align: center;
+   }
+    
+}
