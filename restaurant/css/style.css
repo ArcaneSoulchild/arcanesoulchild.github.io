@@ -5,7 +5,8 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-image: url(../images/space5.jpg);
+    background-image: url(../images/solar-2.png);
+    background: linear-gradient(45deg, #337682, #000000, #52479d);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,6 +17,7 @@ body {
     position: relative;
     text-align: center;
     top: 0px;
+    background: linear-gradient(180deg, #000000, transparent, #000000);
 }
 
 .navlinks {
@@ -41,8 +43,16 @@ body {
     max-width: 1200px;
     margin: 0px auto;
 }
+.single-column2 {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
 
 #main-section {
+    padding: 48px;
+}
+#main-section2 {
     padding: 48px;
 }
 
@@ -52,7 +62,16 @@ body {
     text-align: center;
     margin: 48px 0px;
 }
+.side-by-side2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 48px 0px;
+}
 .side-by-side .image-container {
+    flex: 1;
+}
+.side-by-side2 .image-container2 {
     flex: 1;
 }
 
@@ -60,11 +79,21 @@ body {
     flex: 1;
     padding: 36px;
 }
+.side-by-side2 .text-container2 {
+    flex: 1;
+    padding: 36px;
+}
 .side-by-side .image-container img {
+    width: 100%;
+}
+.side-by-side2 .image-container2 img {
     width: 100%;
 }
 
 .side-by-side .text-container p {
+    font-size: 48px;
+}
+.side-by-side2 .text-container2 p {
     font-size: 48px;
 }
 .side-by-side .text-container a {
@@ -76,6 +105,31 @@ body {
     color: white;
     padding: 24px 48px;
     border-radius: 48px;
+}
+.side-by-side2 .text-container2 a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #52479d;
+    color: white;
+    padding: 24px 48px;
+    border-radius: 48px;
+}
+.text-container {
+    background: linear-gradient(50deg, #000000, transparent, #000000);
+    text-align: center;
+    margin: 0px;
+    gap: 0px;
+}
+.text-container2 {
+    background: linear-gradient(50deg, #000000, transparent, #000000);
+    text-align: center;
+    margin: 0px;
+    gap: 0px;
+}
+h2 {
+    font-size: 36px;
 }
 #navbar a {
     text-decoration: none;
@@ -137,13 +191,37 @@ p {
     gap: 36px;
     justify-content: center;
 }
+#centered-column2 {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
 
 .card img {
     height: 150px;
     object-fit: cover;
 }
+.card2 img {
+    height: 150px;
+    object-fit: cover;
+}
 
 .card {
+    width: 350px;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #84d2de;
+    background: linear-gradient(-50deg,#000000, #616060, #000000 );
+    z-index: 1;
+}
+.card2 {
     width: 350px;
     position: relative;
     color: #ffffff;
@@ -164,16 +242,61 @@ p {
     z-index: -1;
     opacity: 0.6;
 }
+.text-container2 .solar{
+     position:absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: -1;
+    opacity: 0.6;
+}
+.card2 .solar2 {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: -1;
+    opacity: 0.6;
+}
 .card h2 {
     font-size: 36px;
     margin-top: 12px;
 }
-
+.card2 h2 {
+    font-size: 36px;
+    margin-top: 12px;
+}
 .card p {
     font-size: 18px;
 }
-
+.card2 p {
+    font-size: 20px;
+}
 .card .btn {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border: 3px solid #d3d327;
+    padding: 10px;
+    transition: 
+    background-color 0.5s,
+    color 0.5s
+    ;
+    &:hover{
+        background-color: transparent;
+        color: #84d2de;
+    }
+}
+.card2 .btn2 {
     color: #ffffff;
     text-decoration: none;
     background-color: #000000;
