@@ -257,7 +257,7 @@ p {
     text-align: center;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: -4px 4px 12px #337c82;
+    box-shadow: -4px 4px 12px #52479d;
     background: linear-gradient(-50deg,#000000, #616060, #000000 );
     z-index: 1;
 }
@@ -360,7 +360,7 @@ p {
     ;
     &:hover{
         background-color: transparent;
-        color: #84d2de;
+        color: #000000;
     }
 }
 .card2 .btn2 {
@@ -400,7 +400,7 @@ p {
     ;
     &:hover{
         background-color: transparent;
-        color: #84d2de;
+        color: #52479d;
     }
 }
 
