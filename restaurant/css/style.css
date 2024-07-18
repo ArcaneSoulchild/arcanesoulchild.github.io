@@ -405,7 +405,7 @@ p {
 }
 
 #footer {
-    background: linear-gradient(to bottom, #337682, #52479d);
+    background: linear-gradient(to bottom, #337682, #000000, #52479d);
     color: white;
     padding: 12px;
 }
