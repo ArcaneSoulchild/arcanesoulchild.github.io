@@ -174,7 +174,13 @@ h2 {
     margin: 24px auto;
     color: #ffffff;
 }
-
+#layout-2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 24px auto;
+    color: #ffffff;
+}
 h1 {
     font-size: 48px;
 }
@@ -200,6 +206,15 @@ p {
     gap: 36px;
     justify-content: center;
 }
+#centered-column3 {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
 
 .card img {
     height: 150px;
@@ -209,7 +224,10 @@ p {
     height: 150px;
     object-fit: cover;
 }
-
+.card3 img {
+    height: 150px;
+    object-fit: cover;
+}
 .card {
     width: 350px;
     position: relative;
@@ -222,6 +240,17 @@ p {
     z-index: 1;
 }
 .card2 {
+    width: 350px;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #337c82;
+    background: linear-gradient(-50deg,#000000, #616060, #000000 );
+    z-index: 1;
+}
+.card3 {
     width: 350px;
     position: relative;
     color: #ffffff;
@@ -262,6 +291,16 @@ p {
     z-index: -1;
     opacity: 0.6;
 }
+.card3 .solar2 {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: -1;
+    opacity: 0.6;
+}
 .card h2 {
     font-size: 36px;
     margin-top: 12px;
@@ -270,10 +309,17 @@ p {
     font-size: 36px;
     margin-top: 12px;
 }
+.card3 h2 {
+    font-size: 36px;
+    margin-top: 12px;
+}
 .card p {
     font-size: 18px;
 }
 .card2 p {
+    font-size: 20px;
+}
+.card3 p {
     font-size: 20px;
 }
 .card .btn {
@@ -296,7 +342,48 @@ p {
         color: #84d2de;
     }
 }
+.btn3 {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    border: 3px solid #d3d327;
+    border-radius: 36px;
+    padding: 10px;
+    transition: 
+    background-color 0.5s,
+    color 0.5s
+    ;
+    &:hover{
+        background-color: transparent;
+        color: #84d2de;
+    }
+}
 .card2 .btn2 {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border: 3px solid #d3d327;
+    padding: 10px;
+    transition: 
+    background-color 0.5s,
+    color 0.5s
+    ;
+    &:hover{
+        background-color: transparent;
+        color: #84d2de;
+    }
+}
+.card3 .btn2 {
     color: #ffffff;
     text-decoration: none;
     background-color: #000000;
